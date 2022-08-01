@@ -1,0 +1,14 @@
+Viết tắt:  American National Standards Institute (ANSI)
+
+1983 ANSI formed X3J11 committee that developed first ANSI C known as C89, based on the standard UNIX C compiler of the time
+1990  International Organization for Standardization (ISO) created C90
+ISO created C99 standar
+C11 is ANSI C specification
+C11 includes several changes to C99:
+-- Alignment specification (_Alignas specifier, _Alignof operator, aligned_alloc function, <stdalign.h> header file)
+-- The _Noreturn function specifier and the <stdnoreturn.h> header file
+-- Type-generic expressions using the _Generic keyword. For example, the following macro cbrt(x) translates to cbrtl(x), cbrt(x) or cbrtf(x) depending on the type of x:
+-- Multi-threading support (_Thread_local storage-class specifier, <threads.h> header including thread creation/management functions, mutex, condition variable and thread-specific storage functionality, as well as the _Atomic type qualifier and <stdatomic.h> for uninterruptible object access).
+-- Improved Unicode support based on the C Unicode Technical Report ISO/IEC TR 19769:2004 (char16_t and char32_t types for storing UTF-16/UTF-32 encoded data, including conversion functions in <uchar.h> and the corresponding u and U string literal prefixes, as well as the u8 prefix for UTF-8 encoded literals).
+-- Removal of the gets function, deprecated in the previous C language standard revision, ISO/IEC 9899:1999/Cor.3:2007(E), in favor of a new safe alternative, gets_s.
+-- Anonymous structures and unions, useful when unions and structures are nested, e.g. in struct T { int tag; union { float x; int n; }; };.
