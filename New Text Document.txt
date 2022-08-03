@@ -18,7 +18,7 @@
 •	Flexible Array Members
 •	Complex number types
 •	Designated Initializers
-
+‭‎
 4.	Type Qualifiers
 •	const
 •	volatile
@@ -38,7 +38,7 @@
 •	The comma operator
 •	setjmp and longjmp functions
 
-7.	Input and Output
+7.	Input and Output__
 •	char functions (input)
 •	char functions (output)
 •	string functions
