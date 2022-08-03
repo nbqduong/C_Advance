@@ -38,7 +38,7 @@
 •	The comma operator
 •	setjmp and longjmp functions
 
-7.	Input and Output__
+7.	Input and Output
 •	char functions (input)
 •	char functions (output)
 •	string functions
@@ -66,7 +66,7 @@
 •	Preprocessor Operators
 •	Predefined Macros
 
-12.	 Advanced Debugging, Analysis, and Compiler Options
+12.	 Advanced Debugging, Analysis, and Compiler Options__
 •	GCC Compiler Options
 •	Debugging with the preprocessor
 •	Debugging with gdb
